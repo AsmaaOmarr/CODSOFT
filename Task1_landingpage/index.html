@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>landing page</title>
+</head>
+<body>
+    <header>
+        <p class="name">LANDING PAGE <i class="fa fa-plane" style="font-size:36px"></i></p>
+        <nav class="navigation_bar">
+            <a href="#main">Home <i class="fa fa-home"></i>   </a>
+            <a href="#about">About </a>
+            <a href="#services">Services </a>
+            <a href="#contact">Contact </a>
+            <a href="#rate">Rate                                                  US </a>
+            <a href="#search"><i class="fas fa-search"></i></a>
+        </nav>
+    </header>
+
+    <section class="main" id="main">
+        <div class="slogan">
+            <h2>"We are here to serve you"</h2>
+        </div>
+    </section> 
+     
+    <section class="about" id="about">
+    <div class="" >
+        <div class="aboutcontent">
+            <h1 class="atitle">About US</h1><img src="suhyeon-choi-tTfDMaRq-FE-unsplash.jpg" class="image" width="500" height="350">
+            <br><br><br>
+            <p class="aboutcontent"> Welcome to our landing page!<br><br>
+            We are dedicated to providing you with exceptional experiences and top-notch products.<br>
+            Our team is passionate about what we do, 
+            <br>and we strive to make your journey with us unforgettable.<br>
+            With years of expertise in the industry,
+            <br> we have established ourselves as a reliable source for quality products and outstanding service.
+            <br>Our mission is to exceed your expectations and ensure your satisfaction every step of the way. <br>      
+            <br>At our core, <br>
+            we believe in innovation, excellence, and a commitment to our customers. Whether you're here to explore our offerings, seek assistance, or embark on a new adventure, we're here to guide you.
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <section class="cards" id="services">
+    <h1 class="stitle"> Our Services</h1>
+    <div class="content">
+        <div class="service">
+           <img src="philip-myrtorp-iiqpxCg2GD4-unsplash.jpg" width="260" height="200" alt="Service 1">
+           <h2>Quality Products</h2>
+           <p>We offer the finest products that meet your needs.</p>
+        </div>
+        <div class="service">
+            <img src="airhostess.avif" width="260" height="200" alt="Service 2">
+            <h3>Expert Team</h3>
+           <p>Our skilled team is dedicated to providing exceptional service.</p>
+      </div>
+        <div class="service">
+            <img src="cytonn-photography-vWchRczcQwM-unsplash.jpg" width="260" height="200" alt="Service 3">
+            <h3>Customer Support</h3>
+            <p>We're here to help you whenever you need assistance.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="cards" id ="contact">
+        <h1 class="ctitle"> Contact US</h1>
+        <div class="content">
+            <div class="contact">
+                <img src="pavan-trikutam-71CjSSB83Wo-unsplash.jpg" width="260" height="200">
+                <h2>BY PHONE </h2>
+                <h3>(Monday to Friday From 9Am to 5PM)</h3>
+                <p>North-America Toll-Free:
+                    <br>1-877-920-7585
+                </p>
+                <p>International:
+                    <br>1-601-700-0505
+                </p>
+            </div>
+            <div class="contact">
+                <img src="merakist-CNbRsQj8mHQ-unsplash.jpg" width="260" height="200">
+                <h2>SOCIAL MEDIA</h2>
+                <h3>Via</h3>
+                <a href="mailto:info@example.com">info@example.com</a></p>
+                <a href="#" >Facebook</a><br>
+                <a href="#"> Twitter</a><br>
+                <a href="#">Instagram</a>
+            
+            </div>
+            <div class="contact">
+                <img src="jason-leung-mZNRsYE9Qi4-unsplash.jpg" width="260" height="200">
+                <h2>LIVE CHAT</h2>
+                <p>Chat with a member of our in-house team</p>
+                <button class="chat">START CHAT</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="rate" id="rate">
+        <form id="form" action="">
+            <div class="info">
+                <h1 class="rtitle">Rate Us</h1>
+                <div class="form">
+                    <h3 for="name"> Name </h3>
+                    <input class="cname" id="name" type="text" name="cname" placeholder="Firstname Lastname"
+                    maxlength="35" required="">
+                    <br><br><hr>
+            
+                    <h3>Gender </h3>
+                    <input id="fem" type="radio" name="gender" value="female" required="">
+                    <label for="fem">Female </label><br>
+                    <input id="ma" type="radio" name="gender" value="male">
+                    <label for="ma">Male</label><br><br><hr>
+
+                    <h3 for="date">Visit Date</h3>
+                    <input class="vdate" id="date" type="date" name="vdate" required>
+                    <br><br><hr>
+            
+                    <h3>would you like to visit Us again ?</h3>
+                    <input id="yes" type="radio" name="visit" value="yes" required="">
+                    <label for="yes">Yes </label><br>
+                    <input id="no" type="radio" name="visit" value="no">
+                    <label for="no">No</label><br><br><hr>
+            
+                    <h3 for="com"> Any comments </h3>
+                    <textarea class="comment" id="com" type="text-area" name="comment"
+                    placeholder="Rate our visit and write any comments" ></textarea><br><br><hr>
+
+                    <input class="send" type="submit" value="Send" name="send">
+                    <input class="reset" type="reset" value="Reset" name="reset" >
+                </div>
+            </div> 
+        </form>
+    </section>
+</body>
+</html>
